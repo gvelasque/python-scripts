@@ -1,4 +1,4 @@
-# 1. Two Sum - LeetCode
+# 1. Two Sum
 
 def two_sum(nums: list[int], target: int) -> list[int]:
     """
