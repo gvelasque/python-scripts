@@ -23,7 +23,8 @@ def reversed_int(num: int) -> int:
       - -2^31 <= x <= 2^31 - 1
     """
     if num.bit_length() > 32:
-        raise ValueError("The range has to be between -2^31 <= x <= 2^31 - 1")
+        raise ValueError(
+            "The range has to be between -2^31 and 2^31 - 1")
 
     if type(num) != int:
         raise TypeError("The array must be a integer")
